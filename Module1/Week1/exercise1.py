@@ -36,7 +36,7 @@ def exercise1(tp, fp, fn):
     else:
         pc = precision(tp,fp)
         rc = recall(tp,fn)
-        print(f'precise = ', pc)
+        print('precise = {pc}')
         print(f'recall = ', rc)
         print(f'f1-score = ', fscore(pc, rc))
         print(f'f1-score = ', round(fscore(pc, rc),2))
