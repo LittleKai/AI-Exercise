@@ -1,4 +1,4 @@
-def exercise2(string):
+def char_count(string):
     char_count = {}
 
     for char in string:
@@ -10,7 +10,7 @@ def exercise2(string):
     return char_count
 
 string = 'Happiness'
-print(exercise2(string))
+print(char_count(string))
 
 string = 'smiles'
-print(exercise2(string))
+print(char_count(string))
